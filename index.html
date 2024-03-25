@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bir Bilet Alayım</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="resimler/logo.jpeg" alt="Logo">
+        </div>
+        <h1 >Bir Bilet Alayım</h1>
+        
+        <div class="location">
+            Konum: <select name="location">
+                <option value="location1">İstanbul</option>
+                <option value="location2">Ankara</option>
+                <option value="location3">İzmir</option>
+            </select>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Etkinlik ara...">
+            <button type="submit">Ara</button>
+        </div>
+    </header>
+    
+  
+    <main>
+        <table>
+            <tr>
+                <td>
+                    <h2 id="tiyatro">Tiyatro Etkinlikleri</h2>
+                    <img src="resimler/tiyatro.jpeg" alt="Tiyatro">
+                </td>
+                <td>
+                    <h2 id="sinema">Sinema Etkinlikleri</h2>
+                    <img src="resimler/sinema.jpeg" alt="Sinema">
+                </td>
+                <td>
+                    <h2 id="spor">Spor Etkinlikleri</h2>
+                    <img src="resimler/spor.jpeg" alt="Spor">
+                </td>
+                <td>
+                    <h2 id="muzik">Müzik Etkinlikleri</h2>
+                    <img src="resimler/müzik.jpeg" alt="Müzik">
+                </td>
+            </tr>
+            
+        </table>
+        
+             
+    </main>
+
+    <nav>
+        <ul>
+            <li><a href="#sinema">Sinema</a></li>
+            <li><a href="#tiyatro">Tiyatro</a></li>
+            <li><a href="#muzik">Müzik</a></li>
+            <li><a href="#spor">Spor</a></li>
+        </ul>
+    </nav>
+    
+
+    <footer>
+        İletişim: info@example.com | Yardım: help@example.com
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
